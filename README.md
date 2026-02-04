@@ -57,7 +57,7 @@ src/
 
 ### What I chose not to do:
 - Maybe I did not follow the design to the nitty gritty bone
-- App.tsx has some potential improvements: Loading state for industries, constants for static text, better usage of semantic HTML(<main>, <section>), Accessibility(ARIA labels and roles).
+- App.tsx has some potential improvements: Loading state for industries, constants for static text, better usage of semantic HTML (`<main>`, `<section>`), Accessibility (ARIA labels and roles).
 It can also be much slimmer and broken up into several smaller pieces, such as: Reusable error component, separate AppHeader component, 
 - In the LoanForm component some potential improvements would be to have Suggested loan amount hint, that users would get when typing in their monthly revenue. Same could be reused when the user gets a loan rejected, they could be given a hint to feasible amount. 
 - In LoanResult component the currency formatter could have been extracted into its own formatter util. 
